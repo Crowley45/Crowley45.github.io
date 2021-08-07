@@ -9,18 +9,3 @@ jQuery(document).ready(function($) {
         $preloader.delay(1000).fadeOut(500);
     });
 });
-
-setTimeout(function(){
-    let name
-name = prompt("Какое у тебя официальное имя?")
-
-if (name == "Михаил") {
- alert(" Ого ты знаешь свое официальное имя! Какой ты умный!") 
-}   else if (name == "михаил") {
-    alert("Имена пишутся с большой буквы, дурень!!")
-}   else {
-    alert("Ты забыл свое имя? Серьезно?!")
-}
-
-}, 1750);
-
