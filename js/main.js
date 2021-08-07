@@ -2,7 +2,7 @@
 
 // Preloader page
 jQuery(document).ready(function($) {
-    $(window).on('load', function () {
+    $(window).on('load', function() {
         var $preloader = $('.preloader'),
             $loader = $preloader.find('.preloader__loader');
         $loader.fadeOut();
