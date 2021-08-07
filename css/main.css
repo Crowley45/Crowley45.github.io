@@ -21,26 +21,23 @@
   right: 0;
   bottom: 0;
   overflow: hidden;
-  background: #fff;
+  background: rgb(180, 180, 200);
   z-index: 1001;
 }
 
 .preloader__image {
   position: relative;
-  top: 50%;
+  top: 45%;
   left: 50%;
-  width: 360px;
-  height: 360px;
+  width: 128px;
+  height: 128px;
   margin-top: -32px;
-  margin-left: -15px;
+  margin-left: -32px;
   background: url('../img/loader.gif') no-repeat 50% 50%; /*расположение (url) изображения gif и др. параметры*/
 }
 
 .loaded_hiding .preloader {
-  transition: 0.3s opacity;
+  transition: 0.1s opacity;
   opacity: 0;
 }
 
-.loaded .preloader {
-  display: none;
-}
