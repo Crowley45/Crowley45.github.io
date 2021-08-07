@@ -1,6 +1,17 @@
 "use strict";
 
-let name
+// Preloader page
+jQuery(document).ready(function($) {
+    $(window).on('load', function () {
+        var $preloader = $('.preloader'),
+            $loader = $preloader.find('.preloader__loader');
+        $loader.fadeOut();
+        $preloader.delay(1000).fadeOut(500);
+    });
+});
+
+setTimeout(function(){
+    let name
 name = prompt("Какое у тебя официальное имя?")
 
 if (name == "Михаил") {
@@ -10,3 +21,6 @@ if (name == "Михаил") {
 }   else {
     alert("Ты забыл свое имя? Серьезно?!")
 }
+
+}, 1750);
+
