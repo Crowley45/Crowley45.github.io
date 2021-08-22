@@ -1,45 +1,64 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="dns-prefetch" href="http://mc.yandex.ru" />
-    <link rel="dns-prefetch" href="http://www.google-analytics.com" />
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="js/main.js"></script>
-    <title>Page</title>
+    <meta name="copyright" content="Crowley">
+    <meta name="author" content="Crowley, clarkcd45@gmail.com">
+    <meta name="url" content="https://crowley45.github.io">
+    <meta name = "robots" content = "index, follow">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Link</title>
 </head>
-
 <body>
-    <div class="preloader">
-        <div class="preloader__loader"> <img src="img/loader.gif" alt="loader" /> </div>
+    
+    <div class="header">
+        <h1><strong>Полезные ссылки для программистов</strong></h1>
     </div>
-    <div>
-        <h1 class="link"><strong>Нужные ссылки: </strong></h1>
-        <ol type="1" start="1">
-            <li><a href="//proglang.su/html-reference/tags" target="_blank">ProgLang.su Tags</a> - All HTML tags</li>
-            <li><a href="//htmlreference.io" target="_blank">HTMLReference.io</a> - All HTML tags</li>
-            <li><a href="//developer.mozilla.org/ru" target="_blank"> MDN</a> - Справочник по ЯПам Вэба(HTML, CSS, JS) от разработчиков Mozilla Firefox</li>
-            <li><a href="//www.vectorizer.io" target="_blank">Vectorizer.io</a> - "Векторизатор изображений". Преобразование растровых изображений, таких как PNG, BMP и JPEG, в масштабируемую векторную графику (SVG)</li>
-            <li><a href="//validator.w3.org">W3 School</a> - Валидатор HTML кода</li>
-            <li><a href="//developers.google.com/speed/pagespeed">Google PageSpeed</a> - Проверка скорости загрузки сайта и рекомендации по оптимизации #1</li>
-            <li><a href="//tools.pingdom.com"> PingDom</a> - Проверка скорости загрузки сайта и рекомендации по оптимизации #2</li>
-            <li><a href="//beautifier.io">Beautifier.io</a> - Проверка и улучшение JS кода</li>
-            <li><a href="//fonts.google.com">Google Fonts</a> - Сервис от Google, где собраны все существующие семейства шрифтов</li>
-            <li><a href="//htmlbook.ru">HTMLBook.ru</a> - Сервис шпаргалка по Вэбу</li>
-        </ol>
-    </div>
-    <p id=share><strong>И вообще, поделись сайтом с друзьями. Как ты его откопал-то?</strong></p>
-    <p id=ps>P.S: кнопки ниже</p>
-    <div>
-        <script src="https://yastatic.net/share2/share.js" async></script>
-        <div class="ya-share2" data-curtain data-size="m" data-shape="round" data-color-scheme="blackwhite" data-services="vkontakte,telegram,twitter,reddit,pocket" data-direction="horizontal" data-nonce></div>
-    </div>
-    <p>
-        <a href="http://jigsaw.w3.org/css-validator/check/referer"> <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Правильный CSS!"> </a>
-    </p>
-</body>
 
+    <div class="block">
+        <div class="one">
+            <p class="heading">Html</p>
+            <ol>
+                <li>
+                    <a href="//proglang.su/html-reference/tags">ProgLang - все теги языка HTML(с&nbsp;описанием)</a>
+                </li>
+                <li>
+                    <a href="//htmlreference.io">HTMLReference.io - все теги языка HTML&nbsp;#2</a>
+                </li>
+                <li>
+                    <a href="//validator.w3.org">W3School - валидатор кода</a>
+                </li>
+            </ol>
+        </div>
+
+        <div class="two">
+            <p class="heading">Js</p>
+            <ol>
+                <li>
+                    <a href="//learn.javascript.ru">learn.javascript.ru - официальные доки по JS на русском языку</a>
+                </li>
+                <li>
+                    <a href="//beautifier.io">beautifier.io - валидатор JS кода</a>
+                </li>
+            </ol>
+        </div>
+
+        <div class="three">
+            <p class="heading">Other</p>
+            <ol>
+                <li>
+                    <a href="//vectorizer.io">vectorizer.io - векторизатор&nbsp;изображений. Растровые(PNG, JPG, BMP) изображения в векторные(SVG)</a>
+                </li>
+                <li>
+                    <a href="//fonts.google.com">fonts.google.com - все существующие семейства шрифтов.</a>
+                </li>
+                <li>
+                    <a href="//developers.google.com/speed">Google PageSpeed - проверка оптимизации сайта</a>
+                </li>
+            </ol>
+        </div>
+    </div>
+
+</body>
 </html>

@@ -1,0 +1,40 @@
+.header {
+  font-family: "Consolas", "sans-serif";
+  font-size: 28px;
+  text-align: center;
+  background-color: rgb(215, 215, 215);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 37px;
+}
+.heading {
+  text-transform: uppercase;
+}
+.one, .two, .three {
+  border: 7px solid rgba(255, 145, 0, 0.8);
+  border-radius: 15px;
+  width: 350px;
+  height: 200px;
+  margin-left: 48px;
+  padding-top: 10px;
+  padding-left: 25px;
+  background-color: rgb(215, 215, 215);
+}
+.one p, .two p, .three p {
+  font-size: 22px;
+  text-align: center;
+}
+.block {
+  display: inline-flex;
+}
+.one:hover, .two:hover, .three:hover {
+  background-color: #fff;
+  transform: scale(1.09);
+  transition: all 0.2s ease-out;
+}
+li {
+  margin-bottom: 10px;
+}
+a {
+  font-size: 16px;
+}
