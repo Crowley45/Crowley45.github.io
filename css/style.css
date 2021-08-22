@@ -13,12 +13,18 @@
 .one, .two, .three {
   border: 7px solid rgba(255, 145, 0, 0.8);
   border-radius: 15px;
-  width: 350px;
-  height: 200px;
-  margin-left: 48px;
+  width: 30%;
+  height: 300px;
   padding-top: 10px;
-  padding-left: 25px;
   background-color: rgb(215, 215, 215);
+}
+.one{
+  margin-left: 5%;
+  margin-right: 20px;
+}
+.three{
+  margin-right: 5%;
+  margin-left: 20px;
 }
 .one p, .two p, .three p {
   font-size: 22px;
