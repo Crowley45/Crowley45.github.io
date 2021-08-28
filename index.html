@@ -1,66 +1,71 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=0.35">
-    <meta name="copyright" content="Crowley">
-    <meta name="author" content="Crowley, clarkcd45@gmail.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="url" content="https://crowley45.github.io">
     <meta name="robots" content="index, follow">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Links</title>
+    <title>Links for layout designer</title>
 </head>
+
 <body>
-    
     <div class="header">
-        <h1><strong>Полезные ссылки</strong></h1>
+        <strong><a href="#head" id="line">Полезные ссылки</a></strong>
+        <a tabindex="1" class="link" id="margin-html" href="#HTML">HTML</a>
+        <a tabindex="1" class="link" href="#JS">JS</a>
+        <a tabindex="1" class="link" href="#OTHER">OTHER</a>
+    </div>
+    
+    <div id="head">Lorem ipsum dolor sit.</div>
+
+    <div class="heading">
+        <h1><strong>Полезные ссылки для&nbsp;верстальщика</strong></h1>
+        <p>
+            Сайт-сборник полезных сервисов для верстальщика и веб-разработчика на русском языке.
+        </p>
     </div>
 
-    <div class="block">
-        <div class="one">
-            <p class="heading">Html</p>
-            <ol>
-                <li>
-                    <a href="//proglang.su/html-reference/tags">ProgLang - все теги языка HTML(с&nbsp;описанием)</a>
-                </li>
-                <li>
-                    <a href="//htmlreference.io">HTMLReference.io - все теги языка HTML&nbsp;#2</a>
-                </li>
-                <li>
-                    <a href="//validator.w3.org">W3School - валидатор кода</a>
-                </li>
-            </ol>
-        </div>
-
-        <div class="two">
-            <p class="heading">Js</p>
-            <ol>
-                <li>
-                    <a href="//learn.javascript.ru">learn.javascript.ru - официальные доки по JS на русском языку</a>
-                </li>
-                <li>
-                    <a href="//beautifier.io">beautifier.io - валидатор JS кода</a>
-                </li>
-            </ol>
-        </div>
-
-        <div class="three">
-            <p class="heading">Other</p>
-            <ol>
-                <li>
-                    <a href="//vectorizer.io">vectorizer.io - векторизатор&nbsp;изображений. Растровые(PNG, JPG, BMP) изображения в векторные(SVG)</a>
-                </li>
-                <li>
-                    <a href="//fonts.google.com">fonts.google.com - все существующие семейства шрифтов.</a>
-                </li>
-                <li>
-                    <a href="//developers.google.com/speed">Google PageSpeed - проверка оптимизации сайта</a>
-                </li>
-            </ol>
-        </div>
+    <div class="content">
+        <ol>
+            <h2 id="HTML">HTML</h2>
+            <li>
+                <a tabindex="1" href="http://proglang.su/html-reference/tags">ProgLang.su</a><p> - все теги  HTML<br>(с описанием) №1</p>
+            </li>
+            <li>
+                <a tabindex="1" href="//htmlreference.io">HTMLRef.io</a><p> - все теги HTML №2</p>
+            </li>
+            <li>
+                <a tabindex="1" href="//validator.w3.org">W3School</a><p> - валидатор HTML и CSS кода</p>
+            </li>
+        </ol>
+        <ol>
+            <h2 id="JS">JS</h2>
+            <li>
+                <a tabindex="1" href="//learn.javascript.ru">learn.javascript.ru</a><p> - официальные доки по JS на русском языке</p>
+            </li>
+            <li>
+                <a tabindex="1" href="//beautifier.io">Beautifier.io</a><p> - валидатор JS кода</p>
+            </li>
+        </ol>
+        <ol>
+            <h2 id="OTHER">Other</h2>
+            <li>
+                <a tabindex="1" href="//vectorizer.io">Vectorizer.io</a><p> - векторизатор изображений. Растровые(PNG, JPG, BMP) изображения в векторные(SVG)</p>
+            </li>
+            <li>
+                <a tabindex="1" href="//fonts.google.com">GOOGLE Fonts</a><p> - самый большой сборник шрифтов от GOOGLE</p>
+            </li>
+            <li>
+                <a tabindex="1" href="//developers.google.com/speed">GOOGLE PageSpeed</a><p> - проверка оптимизации интернет-ресурсов</p>
+            </li>
+        </ol>
+        
     </div>
-
+    <p class="author">Author: <a target="_blank" href="//vk.com/c_d45">VK</a></p>
+    <img class="svg" src="img/1.svg" alt="">
 </body>
 </html>
