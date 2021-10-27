@@ -7,65 +7,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="url" content="https://crowley45.github.io">
     <meta name="robots" content="index, follow">
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Links for layout designer</title>
+    <title>Полезные ссылки для верстальщика</title>
 </head>
 
 <body>
-    <div class="header">
-        <strong><a href="#head" id="line">Полезные ссылки</a></strong>
-        <a tabindex="1" class="link" id="margin-html" href="#HTML">HTML</a>
-        <a tabindex="1" class="link" href="#JS">JS</a>
-        <a tabindex="1" class="link" href="#OTHER">OTHER</a>
-    </div>
-    
-    <div id="head">Lorem ipsum dolor sit.</div>
-
-    <div class="heading">
-        <h1><strong>Полезные ссылки для&nbsp;верстальщика</strong></h1>
-        <p>
-            Сайт-сборник полезных сервисов для верстальщика и веб-разработчика на русском языке.
-        </p>
+    <div class="container-fluid">
+        <h1>Полезные ссылки для&nbsp;верстальщика</h1>
+        <h2>Различные ресурсы, сайты и сервисы, которые&nbsp;помогут&nbsp;в&nbsp;работе</h2>
     </div>
 
-    <div class="content">
-        <ol>
-            <h2 id="HTML">HTML</h2>
-            <li>
-                <a tabindex="1" href="http://proglang.su/html-reference/tags">ProgLang.su</a><p> - все теги  HTML<br>(с описанием) №1</p>
-            </li>
-            <li>
-                <a tabindex="1" href="//htmlreference.io">HTMLRef.io</a><p> - все теги HTML №2</p>
-            </li>
-            <li>
-                <a tabindex="1" href="//validator.w3.org">W3School</a><p> - валидатор HTML и CSS кода</p>
-            </li>
-        </ol>
-        <ol>
-            <h2 id="JS">JS</h2>
-            <li>
-                <a tabindex="1" href="//learn.javascript.ru">learn.javascript.ru</a><p> - официальные доки по JS на русском языке</p>
-            </li>
-            <li>
-                <a tabindex="1" href="//beautifier.io">Beautifier.io</a><p> - валидатор JS кода</p>
-            </li>
-        </ol>
-        <ol>
-            <h2 id="OTHER">Other</h2>
-            <li>
-                <a tabindex="1" href="//vectorizer.io">Vectorizer.io</a><p> - векторизатор изображений. Растровые(PNG, JPG, BMP) изображения в векторные(SVG)</p>
-            </li>
-            <li>
-                <a tabindex="1" href="//fonts.google.com">GOOGLE Fonts</a><p> - самый большой сборник шрифтов от GOOGLE</p>
-            </li>
-            <li>
-                <a tabindex="1" href="//developers.google.com/speed">GOOGLE PageSpeed</a><p> - проверка оптимизации интернет-ресурсов</p>
-            </li>
-        </ol>
-        
+    <div class="container">
+        <div class="row row-cols-3">
+            <div class="col">
+                <p class="h1">Шрифты</p>
+                <ol>
+                    <li><a target="_blank" href="https://fonts.google.com">Google Fonts</a> - самый большой пак шрифтов от Google</li>
+                    <li><a target="_blank" href="https://app.typeanything.io">Type Anything</a> - калькулятор параметров текста + генератор CSS-кода</li>
+                    <li><a target="_blank" href="https://fontstorage.com/tools">Font Storage</a> - расширение для простого подключения шрифтов</li>
+                <ol>
+            </div>
+            <div class="col">
+                <p class="h1">Графика</p>
+                <ol>
+                    <li><a href="https://tinypng.com">TinyPNG</a> - сжатие изображений</li>
+                    <li><a href="https://vectorizer.io">Vectorizer</a> - конверт растрового в векторное изображение</li>
+                    <li><a href="https://flaticon.com">Flat Icon</a> - векторные иконки</li>
+                    <li><a href="https://fontawesome.com">Font Awesome</a> - иконочный шрифт + SVG</li>
+                    <li><a href="https://utf8-icons.com">UTF8 Icons</a> - иконки UTF8</li>
+                </ol>
+            </div>
+            <div class="col">
+                <p class="h1">Валидация</p>
+                <ol>
+                    <li><a href="https://validator.w3.org">W3C validator</a> - валидатор HTML</li>
+                    <li><a href="https://caniuse.com">Can I Use</a> - кроссбраузерность кода</li>
+                    <li><a target="_blank" href="https://developers.google.com/speed">Google PageSpeed</a> - проверка оптимизации интернет-ресурсов</li>
+                    <li><a href="https://search.google.com/test/mobile-friendly">Mobile Friendly</a> - адаптированность сайта для мобильных устройств</li>
+                </ol>
+            </div>
+            <div class="col">
+                <p class="h1">Песочницы для кода</p>
+                <ol>
+                    <li><a href="https://jsfiddle.net/">JS Fiddle</a> - песочница для JS кода</li>
+                    <li><a href="https://codepen.io/">CodePen</a> - песочница для HTML, CSS и JS</li>
+                    <li><a href="https://jsbin.com/?html,output">JS Bin</a> - песочница для JS с выводом в консоль</li>
+                </ol>
+            </div>
+            <div class="col">
+                <p class="h1">Генераторы CSS</p>
+                <ol>
+                    <li><a href="https://color.hailpixel.com/#">ColorDot</a> - подбор цвета в CSS</li>
+                    <li><a href="https://cssgradient.io">CSS Gradient</a> - генератор градиента</li>
+                    <li><a href="https://colorscheme.ru/color-converter.html">ColorScheme</a> - конвертер цветов</li>
+                </ol>
+            </div>
+            <div class="col">
+                <p class="h1">Прочее</p>
+                <ol>
+                    <li><a href="https://coverr.co/">Coverr</a> - сток коротких видео для фона на сайт</li>
+                    <li><a href="https://www.minifier.org/">Minify</a> - минификатор для JS и CSS кода</li>
+                    <li><a href="https://unminify.com/">UnMinify</a> - Анминификатор для HTML, CSS, JS</li>
+                    <li><a href="https://blisk.io/">Blisk</a> - браузер для разработчиков</li>
+                </ol>
+            </div>
+        </div>
     </div>
-    <p class="author">Author: <a target="_blank" href="//vk.com/c_d45">VK</a></p>
-    <img class="svg" src="img/1.svg" alt="">
 </body>
 </html>
