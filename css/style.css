@@ -6,6 +6,11 @@ body {
   position: relative;
   text-rendering: optimizeSpeed;
 }
+.img2 {
+  position: absolute;
+  bottom: 65%;
+  z-index: -1;
+}
 .container-fluid {
   text-align: center;
   background-color: var(--color-header);
