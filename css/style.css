@@ -14,6 +14,7 @@ body {
   background-color: var(--color-header);
   font-weight: 400;
   font-size: 16px;
+  z-index: 9999999;
   top: 0;
   height: 11%;
   margin-bottom: 2.5%;
@@ -24,10 +25,18 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#96b1ff", endColorstr="#396bff", GradientType=1);
 }
 
+del {
+  font-size: 16px;
+}
+
 .header h1 {
   font-size: 42px;
   font-weight: 900;
   line-height: 0.9;
+}
+
+.btn {
+  margin-bottom: 5%;
 }
 
 .header h2 {
@@ -87,19 +96,19 @@ ol {
 .img {
   position: absolute;
   bottom: 65%;
-  left: 90%;
+  left: 70%;
   z-index: -1;
 }
 
 .img2 {
   position: absolute;
-  bottom: 60%;
+  bottom: 80%;
   z-index: -1;
 }
 
 .img3 {
   position: absolute;
-  bottom: 50%;
+  bottom: 20%;
   left: 80%;
   z-index: -1;
 }
@@ -122,6 +131,12 @@ button:focus {
 
 button::-moz-focus-inner {
   border: 0;
+}
+
+input,
+label {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 @media screen and (max-width: 847px) {
@@ -151,5 +166,13 @@ button::-moz-focus-inner {
 
   .col p {
     font-size: 22px;
+  }
+
+  .calc {
+    margin-top: 25%;
+  }
+
+  .container {
+    margin-top: 7.5%;
   }
 }
