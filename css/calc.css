@@ -1,0 +1,21 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+.main
+{
+    width: 300px;
+    padding:5px;                        
+    margin:20px auto 0;
+    border:2px solid black;
+    border-radius: 5px;
+    text-align:center;
+}
+
+    .main span, .main #first, .main #second, .main hr
+    {
+        display:inline-block;
+        width:90%;
+    }   

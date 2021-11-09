@@ -1,9 +1,11 @@
 :root {
-  --color-header: #B8C9Fb;
+  --color-header: #b8c9fb;
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
   position: relative;
   text-rendering: optimizeSpeed;
 }
@@ -12,45 +14,41 @@ body {
   position: fixed;
   text-align: center;
   background-color: var(--color-header);
-  font-weight: 400;
-  font-size: 16px;
-  z-index: 9999999;
-  top: 0;
-  height: 11%;
-  margin-bottom: 2.5%;
+  top: 0%;
+  z-index: 9999;
+  height: 10%;
   background: rgb(150, 177, 255);
-  background: -moz-linear-gradient(90deg, rgba(150, 177, 255, 1) 5%, rgba(98, 137, 255, 1) 50%, rgba(57, 107, 255, 1) 95%);
-  background: -webkit-linear-gradient(90deg, rgba(150, 177, 255, 1) 5%, rgba(98, 137, 255, 1) 50%, rgba(57, 107, 255, 1) 95%);
-  background: linear-gradient(90deg, rgba(150, 177, 255, 1) 5%, rgba(98, 137, 255, 1) 50%, rgba(57, 107, 255, 1) 95%);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(150, 177, 255, 1) 5%,
+    rgba(98, 137, 255, 1) 50%,
+    rgba(57, 107, 255, 1) 95%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(150, 177, 255, 1) 5%,
+    rgba(98, 137, 255, 1) 50%,
+    rgba(57, 107, 255, 1) 95%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(150, 177, 255, 1) 5%,
+    rgba(98, 137, 255, 1) 50%,
+    rgba(57, 107, 255, 1) 95%
+  );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#96b1ff", endColorstr="#396bff", GradientType=1);
 }
-
-del {
-  font-size: 16px;
-}
-
 .header h1 {
-  font-size: 42px;
+  font-size: 48px;
   font-weight: 900;
-  line-height: 0.9;
 }
 
 .btn {
   margin-bottom: 5%;
 }
 
-.header h2 {
-  font-size: 16px;
-}
-
-.container h3 {
-  font-size: 36px;
-  text-align: center;
-}
-
-.container p {
+p {
   font-size: 26px;
-  font-weight: 800;
 }
 
 .calc {
@@ -78,11 +76,6 @@ del {
 
 .col {
   margin-bottom: 2.5%;
-}
-
-.footer {
-  margin: 0px;
-  background-color: #808080;
 }
 
 a {
@@ -120,10 +113,6 @@ ol {
   z-index: -1;
 }
 
-.btn {
-  justify-content: center;
-}
-
 label:active,
 button:focus {
   outline: none;
@@ -132,33 +121,20 @@ button:focus {
 button::-moz-focus-inner {
   border: 0;
 }
-
-input,
-label {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-@media screen and (max-width: 847px) {
-  .header h2 {
-    display: none;
-  }
-
+@media screen (min-width: 768px) and (max-width: 1000px) {
   .header {
-    line-height: 0.8;
+    font-size: 24px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .header h1 {
-    font-size: 30px;
-    font-weight: 900;
+    font-size: 24px !important;
     text-align: center;
-    line-height: 1.2;
   }
 
   .col {
-    width: 100%;
+    width: 100% !important;
     margin-top: 5%;
     margin-right: 0%;
     margin-left: 0%;
@@ -173,6 +149,23 @@ label {
   }
 
   .container {
-    margin-top: 7.5%;
+    margin-top: 10%;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .header h1 {
+    font-size: 24px !important;
+  }
+  .col {
+    width: 100% !important;
+    margin-top: 5%;
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+}
+@media screen and (max-width: 355px) {
+  .header h1 {
+    font-size: 20px !important;
   }
 }
