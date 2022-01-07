@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
+
+*{
+	font-family: 'Roboto', 'Open Sans', sans-serif;
+	
+}
+
+header{
+	background-color: #B8C9F1;
+	padding: 0% 10% 0% 10%;
+	padding-bottom: 0.5%;
+}
+
+.header-title{
+	font-weight: 900;
+	display: inline;
+	margin-left: 10%;
+}
+
+.author{
+	display: inline;
+}
+
+.author-text{
+	margin-left: 0.5%;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.author-img{
+	height: 40px;
+}
+
+.container{
+	color: #4f4f4f;
+	margin-top: 5%;
+	text-align: center;
+}
+
+.card{
+	width: 25%;
+	text-align: center;
+	display: inline-flex;
+	margin-right: 7.5%;
+}
+.card-title{
+	font-size: 22px;
+	font-weight: 500;
+}
+
+.btn{
+	margin-top: 15%;
+}
