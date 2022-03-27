@@ -2,6 +2,7 @@ body {
   font-family: 'Nunito', sans-serif;
   background-image: url(/img/hero-bg.png);
 }
+
 .container-fluid {
   padding: 0%;
 }
@@ -17,7 +18,7 @@ body {
 
 .title {
   display: inline-block;
-  font-size: 30px;
+  font-size: 140%;
   letter-spacing: 1px;
 }
 
@@ -30,28 +31,32 @@ body {
   text-decoration: none;
   color: #013289;
 }
+
 #header-button {
   background-color: #4154f1;
-  height: 38px;
-  width: 125px;
+  width: 15%;
   font-weight: 700;
 }
+
 .content {
   margin-top: 15%;
 }
+
 .name {
   font-weight: 700;
-  font-size: 48px;
+  font-size: 300%;
   color: #012970;
 }
+
 .description {
-  font-size: 26px;
+  font-size: 165%;
   color: #444444;
 }
+
 .btn-start {
   background-color: #4154f1;
   margin-top: 5%;
-  width: 200px;
+  width: 37%;
   height: 47px;
 }
 
